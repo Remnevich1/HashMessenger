@@ -1,0 +1,48 @@
+.hide {
+    display: none;
+}
+
+.active {
+    color: red;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+.screen {
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 132px);
+}
+
+.screen2 {
+    padding-top: 5%;
+    min-height: calc(100vh - 132px);
+}
+
+.formControlSize {
+    margin-top: 5%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: flex-end;
+}
